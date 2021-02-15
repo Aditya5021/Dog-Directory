@@ -1,0 +1,56 @@
+@media(min-width:500px){
+    .container-1{
+        background: #ddd;
+        width: 50%;
+        border:1px #000 solid;
+        padding: 5px;
+        display:flex;
+        justify-content:center;
+        align-items: flex-end;
+    }
+
+    .container-1-box{
+        display:flex;
+        justify-content: space-between;
+        padding:0px;
+    }
+
+    input[type=submit] {
+        background-color: black;
+        color: silver;
+    }
+
+    #message{
+        display:none;
+        background: white;
+        color:black;
+        position:relative;
+        padding:10px;
+        margin-top: 5px;
+    }
+
+    #message p{
+        padding:5px 20px;
+        font-size:15px;
+    }
+
+    .valid{
+        color:green;
+    }
+
+    .invalid{
+        color:red;
+    }
+
+    .valid:before{
+        position:relative;
+        left:auto;
+        content: "✔";
+    }
+
+    .invalid:before{
+        position: relative;
+        left:auto;
+        content:"✖";
+    }
+}
